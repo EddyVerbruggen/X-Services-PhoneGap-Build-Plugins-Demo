@@ -13,6 +13,7 @@
     <!-- X-Services PhoneGap Build plugins -->
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
     <gap:plugin name="nl.x-services.plugins.calendar" />
+    <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" />
 
 
 

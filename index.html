@@ -15,11 +15,15 @@
     <p class="event received">Device is Ready</p>
     <div id="pluginsDemoDiv">
       <p>
-        <button id="socialSharingDemo" onclick="socialsharingDemo()">SocialSharing - post image</button>
+        <button onclick="socialsharingDemo()">SocialSharing - post image</button>
       </p>
       <p>
-        <button id="calendarDemo-add" onclick="calendarDemoAdd()">Calendar-add</button>
-        <button id="calendarDemo-remove" onclick="calendarDemoRemove()">Calendar-del (iOS)</button>
+        <button onclick="calendarDemoAdd()">Calendar-add</button>
+        <button onclick="calendarDemoRemove()">Calendar-del (iOS)</button>
+      </p>
+      <p>
+        <button onclick="sslcertificatecheckerDemo(true)">SSL check-ok</button>
+        <button onclick="sslcertificatecheckerDemo(false)">SSL check-fail</button>
       </p>
     </div>
   </div>
@@ -29,6 +33,7 @@
 <!-- plugins -->
 <script src="js/plugins/SocialSharing.js"></script>
 <script src="js/plugins/Calendar.js"></script>
+<script src="js/plugins/SSLCertificateChecker.js"></script>
 
 <!-- plugins demo -->
 <script src="js/socialsharing-plugin-demo.js"></script>
