@@ -13,7 +13,8 @@ function sslcertificatecheckerDemo(useCorrectFingerprint) {
       sslcertSuccessCallback,
       sslcertErrorCallback,
       server,
-      fingerprint);
+      fingerprint,
+      "dummy");
 }
 
 function sslcertSuccessCallback(message) {
