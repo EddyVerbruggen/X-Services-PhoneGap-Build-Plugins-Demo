@@ -10,8 +10,8 @@ function sslcertificatecheckerDemo(useCorrectFingerprint) {
   }
 
   window.plugins.sslCertificateChecker.check(
-      null,
-      null,
+      sslcertSuccessCallback,
+      sslcertErrorCallback,
       server,
       fingerprint);
 }
