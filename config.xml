@@ -13,7 +13,7 @@
     <gap:platform name="android"/>
 
 
-    <gap:plugin name="com.borismus.webintent" version="0.1.0" />
+    <!--<gap:plugin name="com.borismus.webintent" version="0.1.0" />-->
 
 
     <!-- X-Services PhoneGap Build plugins -->

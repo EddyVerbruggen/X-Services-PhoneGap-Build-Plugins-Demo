@@ -25,9 +25,9 @@
         <button onclick="sslcertificatecheckerDemo(true)">SSL check-ok</button>
         <button onclick="sslcertificatecheckerDemo(false)">SSL check-fail</button>
       </p>
-      <p>
+      <!--p>
         <a href="#" onclick='openFacebook()'>Zuckerbergs profile (Android)</a>
-      </p>
+      </p-->
     </div>
   </div>
 </div>
@@ -37,7 +37,7 @@
 <script src="js/plugins/SocialSharing.js"></script>
 <script src="js/plugins/Calendar.js"></script>
 <script src="js/plugins/SSLCertificateChecker.js"></script>
-<script src="webintent.js"></script>
+<!--<script src="webintent.js"></script>-->
 
 <!-- plugins demo -->
 <script src="js/socialsharing-plugin-demo.js"></script>
@@ -47,13 +47,15 @@
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript">
   app.initialize();
-  
+
+  /*
   function openFacebook() {
     window.plugins.webintent.startActivity({action: window.plugins.webintent.ACTION_VIEW, url: 'fb://profile/4'}, 
       function() {}, 
       function() {alert('Failed to open URL via Android Intent')}
     );
   }
+  */
 </script>
 </body>
 </html>
