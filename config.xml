@@ -10,12 +10,15 @@
     <feature name="http://api.phonegap.com/1.0/device" />
 
 
+    <gap:plugin name="com.borismus.webintent" version="0.1.0" />
+
+
     <!-- X-Services PhoneGap Build plugins -->
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
     <gap:plugin name="nl.x-services.plugins.calendar" />
     <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" />
     <gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" />
-
+    
 
 
     <preference name="permissions" value="none" />
