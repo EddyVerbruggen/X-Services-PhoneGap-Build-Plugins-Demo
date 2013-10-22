@@ -9,6 +9,9 @@
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
 
+    <gap:platform name="ios"/>
+    <gap:platform name="android"/>
+
 
     <gap:plugin name="com.borismus.webintent" version="0.1.0" />
 
@@ -19,7 +22,6 @@
     <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" />
     <gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" />
     
-
 
     <preference name="phonegap-version" value="2.7.0"/>
     <preference name="orientation" value="portrait" />

@@ -5,7 +5,7 @@ function socialsharingDemo() {
     if (isAvailable) {
       // use a local image from inside the www folder:
 //      window.plugins.socialsharing.share('Some text with a link http://www.google.com', 'Some subject', 'www/img/logo.png');
-      window.plugins.socialsharing.share('Some text');
+      window.plugins.socialsharing.share('Some text', null, null);
 
       // alternative usage:
 
