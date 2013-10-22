@@ -51,7 +51,7 @@
   function openFacebook() {
     window.plugins.webintent.startActivity({action: window.plugins.webintent.ACTION_VIEW, url: 'fb://profile/4'}, 
       function() {}, 
-      function() {alert('Failed to open URL via Android Intent')};
+      function() {alert('Failed to open URL via Android Intent')}
     );
   }
 </script>
