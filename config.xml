@@ -14,10 +14,10 @@
 
 
     <!-- X-Services PhoneGap Build plugins -->
-    <gap:plugin name="nl.x-services.plugins.socialsharing" />
-    <gap:plugin name="nl.x-services.plugins.calendar" />
-    <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" />
-    <gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" />
+    <gap:plugin name="nl.x-services.plugins.socialsharing" version="2.1" />
+    <gap:plugin name="nl.x-services.plugins.calendar" version="1.0" />
+    <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" version="1.0.2" />
+    <gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" version="1.0" />
     
 
     <preference name="phonegap-version" value="2.9.0"/>
