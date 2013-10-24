@@ -20,7 +20,7 @@
     <!--<gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" />-->
     
 
-    <preference name="phonegap-version" value="3.0.0"/>
+    <preference name="phonegap-version" value="3.1.0"/>
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
@@ -35,6 +35,7 @@
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="8" />
     <preference name="android-installLocation" value="auto" />
+    <preference name="SplashScreenDelay" value="2000" />
 
 
     <icon src="icon.png" />
