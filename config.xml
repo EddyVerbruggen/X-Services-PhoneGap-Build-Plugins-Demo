@@ -13,9 +13,6 @@
     <gap:platform name="android"/>
 
 
-    <!--<gap:plugin name="com.borismus.webintent" version="0.1.0" />-->
-
-
     <!-- X-Services PhoneGap Build plugins -->
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
     <gap:plugin name="nl.x-services.plugins.calendar" />
