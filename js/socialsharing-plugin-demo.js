@@ -13,10 +13,10 @@ function socialsharingDemo() {
       // window.plugins.socialsharing.share('Some text', 'http://domain.com', '/Users/username/Library/Application Support/iPhone/6.1/Applications/25A1E7CF-079F-438D-823B-55C6F8CD2DC0/Documents/.nl.x-services.appname/pics/img.jpg');
 
       // 2) an image from the internet:
-      window.plugins.socialsharing.share('Some text', 'http://domain.com', 'http://domain.com/image.jpg');
+//      window.plugins.socialsharing.share('Some text', 'http://domain.com', 'http://domain.com/image.jpg');
 
-      // 3) text-only:
-      // window.plugins.socialsharing.share('Some text', '', '');
+      // 3) text and link:
+      window.plugins.socialsharing.share('Some text and a link', '', '', 'http://www.nu.nl');
     }
   });
 }
