@@ -17,6 +17,9 @@
     <gap:plugin name="nl.x-services.plugins.socialsharing" version="3.2" />
     <gap:plugin name="nl.x-services.plugins.calendar" version="3.2" />
     <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" version="3.0" />
+    <gap:plugin name="nl.x-services.plugins.launchmyapp" version="3.0">
+      <param name="URL_SCHEME" value="xpluginsdemo" />
+    </gap:plugin>
     <!--<gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" />-->
     
 

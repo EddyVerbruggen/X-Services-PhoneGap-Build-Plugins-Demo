@@ -34,6 +34,7 @@
 <script src="js/plugins/SocialSharing.js"></script>
 <script src="js/plugins/Calendar.js"></script>
 <script src="js/plugins/SSLCertificateChecker.js"></script>
+<script src="js/plugins/LaunchMyApp.js"></script>
 
 <!-- plugins demo -->
 <script src="js/socialsharing-plugin-demo.js"></script>
@@ -43,6 +44,13 @@
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript">
   app.initialize();
+
+  // this is for the LaunchMyApp plugin
+  function handleOpenURL(url) {
+    setTimeout(function() {
+      alert("LaunchMyApp plugin received url: " + url);
+    }, 0);
+  }
 </script>
 </body>
 </html>
