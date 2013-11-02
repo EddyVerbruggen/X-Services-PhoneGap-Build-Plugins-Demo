@@ -7,8 +7,7 @@
     <author email="info@x-services.nl" href="http://www.x-services.nl">
         X-Services, Netherlands
     </author>
-    <!--<feature name="http://api.phonegap.com/1.0/device" />-->
-    <preference name="permissions" value="none"/>
+    <feature name="http://api.phonegap.com/1.0/device" />
 
     <gap:platform name="ios"/>
     <gap:platform name="android"/>
