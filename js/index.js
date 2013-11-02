@@ -53,6 +53,7 @@ var app = {
   },
   initPluginDemo: function () {
     document.getElementById('pluginsDemoDiv').setAttribute('style', 'display:block');
+    StatusBar.overlaysWebView(true);
   }
 };
 
