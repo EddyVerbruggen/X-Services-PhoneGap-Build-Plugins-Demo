@@ -7,7 +7,7 @@
     <author email="info@x-services.nl" href="http://www.x-services.nl">
         X-Services, Netherlands
     </author>
-    <feature name="http://api.phonegap.com/1.0/device" />
+    <!--<feature name="http://api.phonegap.com/1.0/device" />-->
 
     <gap:platform name="ios"/>
     <gap:platform name="android"/>
@@ -24,7 +24,7 @@
 
 
     <preference name="phonegap-version" value="3.1.0"/>
-    <!--<preference name="orientation" value="portrait" />-->
+    <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="true" />
