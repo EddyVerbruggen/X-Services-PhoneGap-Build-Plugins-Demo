@@ -8,6 +8,7 @@
         X-Services, Netherlands
     </author>
     <!--<feature name="http://api.phonegap.com/1.0/device" />-->
+    <feature name="http://api.phonegap.com/1.0/network" />
 
     <gap:platform name="ios"/>
     <gap:platform name="android"/>
