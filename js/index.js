@@ -53,6 +53,8 @@ var app = {
   },
   initPluginDemo: function () {
     document.getElementById('pluginsDemoDiv').setAttribute('style', 'display:block');
+//    StatusBar.styleLightContent();
+    StatusBar.hide();
   }
 };
 
