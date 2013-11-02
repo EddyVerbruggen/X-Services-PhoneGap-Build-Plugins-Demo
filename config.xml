@@ -17,13 +17,10 @@
     <gap:plugin name="nl.x-services.plugins.socialsharing" version="3.2" />
     <gap:plugin name="nl.x-services.plugins.calendar" version="3.2" />
     <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" version="3.0" />
-    <!--<gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" version="3.0" />-->
+    <gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" version="3.0" />
     <gap:plugin name="nl.x-services.plugins.launchmyapp" version="3.0">
       <param name="URL_SCHEME" value="xpluginsdemo" />
     </gap:plugin>
-
-
-    <gap:plugin name="com.phonegap.plugin.statusbar" version="1.0.0" />
 
 
     <preference name="phonegap-version" value="3.1.0"/>
