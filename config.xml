@@ -13,23 +13,23 @@
     <gap:platform name="android"/>
 
 
-    <!-- X-Services PhoneGap Build plugins -->
+    <!-- X-Services PhoneGap Build plugins
     <gap:plugin name="nl.x-services.plugins.socialsharing" version="3.2" />
     <gap:plugin name="nl.x-services.plugins.calendar" version="3.2" />
     <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" version="3.0" />
     <gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" version="3.0" />
     <gap:plugin name="nl.x-services.plugins.launchmyapp" version="3.0">
       <param name="URL_SCHEME" value="xpluginsdemo" />
-    </gap:plugin>
+    </gap:plugin-->
 
 
     <!-- other plugins -->
-    <gap:plugin name="com.phonegap.plugin.statusbar" version="1.0.0" />
+    <!--<gap:plugin name="com.phonegap.plugin.statusbar" version="1.0.0" />-->
 
 
   <preference name="phonegap-version" value="3.1.0"/>
-    <preference name="orientation" value="portrait" />
-    <preference name="target-device" value="universal" />
+    <!--<preference name="orientation" value="portrait" />-->
+    <!--<preference name="target-device" value="universal" />-->
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
