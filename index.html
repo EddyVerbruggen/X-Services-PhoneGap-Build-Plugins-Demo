@@ -56,6 +56,10 @@
       alert("LaunchMyApp plugin received url: " + url);
     }, 0);
   }
+
+  window.onerror = function(a,b,c) {
+    alert(a + "; " + b + "; " + c);
+  }
 </script>
 </body>
 </html>
