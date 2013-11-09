@@ -24,6 +24,10 @@
     </gap:plugin>
 
 
+    <!-- PhoneGap plugins -->
+    <gap:plugin name="org.apache.cordova.media-capture" version="0.2.3" />
+
+
     <preference name="phonegap-version" value="3.1.0"/>
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
