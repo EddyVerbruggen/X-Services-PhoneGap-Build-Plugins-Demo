@@ -6,8 +6,9 @@ function videoCapturePlusDemo() {
 
 function captureSuccess(mediaFiles) {
   var i, len;
-  for (i = 0, len = mediaFiles.length; i < len; i += 1) {
-    navigator.notification.alert("vid " + i, null, 'Cewl!');
+  for (i = 0, len = mediaFiles.length; i < len; i++) {
+    var mediaFile = mediaFiles[i];
+    navigator.notification.alert(mediaFile.name, null, mediaFile.fullPath);
   }
 }
 
