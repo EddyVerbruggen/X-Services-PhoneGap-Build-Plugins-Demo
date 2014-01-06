@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.helloworld" version="1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>X-Plugins Demo</name>
     <description>
         The PhoneGap Hello World sample, extended with our plugins, so you have nice copy-pasteable code for your own app.
@@ -20,6 +20,7 @@
     <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" version="3.0" />
     <gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" version="3.0" />
     <gap:plugin name="nl.x-services.plugins.ioswebviewcolor" version="1.0" />
+    <gap:plugin name="nl.x-services.plugins.videocaptureplus" version="1.0" />
     <gap:plugin name="nl.x-services.plugins.launchmyapp" version="3.0">
       <param name="URL_SCHEME" value="xpluginsdemo" />
     </gap:plugin>
