@@ -27,7 +27,7 @@
 
 
     <!-- PhoneGap plugins -->
-    <!--<gap:plugin name="org.apache.cordova.media-capture" version="0.2.3" />-->
+    <gap:plugin name="org.apache.cordova.media-capture" version="0.2.3" />
     <gap:plugin name="org.apache.cordova.dialogs" version="0.2.2" />
 
 
