@@ -31,7 +31,7 @@
     <gap:plugin name="org.apache.cordova.dialogs" version="0.2.2" />
 
 
-    <preference name="phonegap-version" value="3.0.0"/>
+    <preference name="phonegap-version" value="3.1.0"/>
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
