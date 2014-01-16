@@ -15,13 +15,12 @@
 
 
     <!-- X-Services PhoneGap Build plugins -->
-    <gap:plugin name="nl.x-services.plugins.socialsharing" version="3.4" />
-    <gap:plugin name="nl.x-services.plugins.calendar" version="3.2" />
-    <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" version="3.0" />
-    <gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" version="3.0" />
-    <gap:plugin name="nl.x-services.plugins.ioswebviewcolor" version="1.0" />
-    <gap:plugin name="nl.x-services.plugins.videocaptureplus" version="1.0" />
-    <gap:plugin name="nl.x-services.plugins.launchmyapp" version="3.0">
+    <gap:plugin name="nl.x-services.plugins.socialsharing" />
+    <gap:plugin name="nl.x-services.plugins.calendar" />
+    <gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" />
+    <gap:plugin name="nl.x-services.plugins.ioswebviewcolor" />
+    <gap:plugin name="nl.x-services.plugins.videocaptureplus" />
+    <gap:plugin name="nl.x-services.plugins.launchmyapp" >
       <param name="URL_SCHEME" value="xpluginsdemo" />
     </gap:plugin>
 
