@@ -21,6 +21,7 @@
     <gap:plugin name="nl.x-services.plugins.ioswebviewcolor" />
     <gap:plugin name="nl.x-services.plugins.videocaptureplus" />
     <gap:plugin name="nl.x-services.plugins.toast" />
+    <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" />
     <gap:plugin name="nl.x-services.plugins.launchmyapp">
       <param name="URL_SCHEME" value="xpluginsdemo" />
     </gap:plugin>
