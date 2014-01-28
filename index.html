@@ -26,6 +26,9 @@
         <button onclick="calendarDemoRemove()">Calendar-del (iOS)</button>
       </p>
       <p>
+        <button onclick="window.plugins.toast.showShortBottom('Hello there!', function(a){console.log('toast success: ' + a)}, function(b){alert('toast error: ' + b)})">Show a toast at the bottom</button>
+      </p>
+      <p>
         <button onclick="sslcertificatecheckerDemo(true)">SSL check-ok</button>
         <button onclick="sslcertificatecheckerDemo(false)">SSL check-fail</button>
       </p>
