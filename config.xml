@@ -20,6 +20,7 @@
     <gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" />
     <gap:plugin name="nl.x-services.plugins.ioswebviewcolor" />
     <gap:plugin name="nl.x-services.plugins.videocaptureplus" />
+    <gap:plugin name="nl.x-services.plugins.flashlight" />
     <gap:plugin name="nl.x-services.plugins.toast" />
     <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" />
     <gap:plugin name="nl.x-services.plugins.launchmyapp">

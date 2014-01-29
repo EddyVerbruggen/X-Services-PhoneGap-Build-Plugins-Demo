@@ -29,6 +29,9 @@
         <button onclick="window.plugins.toast.showShortBottom('Hello there!', function(a){console.log('toast success: ' + a)}, function(b){alert('toast error: ' + b)})">Show a toast at the bottom</button>
       </p>
       <p>
+        <button onclick="window.plugins.flashlight.toggle()">Toggle Flashlight</button>
+      </p>
+      <p>
         <button onclick="sslcertificatecheckerDemo(true)">SSL check-ok</button>
         <button onclick="sslcertificatecheckerDemo(false)">SSL check-fail</button>
       </p>
@@ -46,6 +49,7 @@
 <!-- plugins -->
 <script src="js/plugins/Calendar.js"></script>
 <script src="js/plugins/LaunchMyApp.js"></script>
+<script src="js/plugins/Flashlight.js"></script>
 
 <!-- plugins demo -->
 <script src="js/socialsharing-plugin-demo.js"></script>
