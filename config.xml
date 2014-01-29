@@ -50,7 +50,7 @@
 
 
     <!-- demo for allowing only landscape orientation on iPad, with a preference of orientation=portrait -->
-    <gap:config-file platform="ios" parent="UISupportedInterfaceOrientations~ipad" overwrite="false">
+    <gap:config-file platform="ios" parent="UISupportedInterfaceOrientations~ipad" overwrite="true">
       <array>
         <string>UIInterfaceOrientationLandscapeLeft</string>
         <string>UIInterfaceOrientationLandscapeRight</string>
