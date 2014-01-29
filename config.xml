@@ -32,7 +32,7 @@
 
 
     <preference name="phonegap-version" value="3.3.0"/>
-    <preference name="orientation" value="portrait" /><!-- overridden below -->
+    <!--<preference name="orientation" value="portrait" />-->
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="true" />
@@ -50,7 +50,7 @@
 
 
     <!-- demo for allowing only landscape orientation on iPad, with a preference of orientation=portrait -->
-    <gap:config-file platform="ios" parent="UISupportedInterfaceOrientations~iPad" overwrite="true">
+    <gap:config-file platform="ios" parent="UISupportedInterfaceOrientations~ipad" overwrite="false">
       <array>
         <string>UIInterfaceOrientationLandscapeLeft</string>
         <string>UIInterfaceOrientationLandscapeRight</string>
