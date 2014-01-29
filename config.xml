@@ -17,7 +17,6 @@
     <!-- X-Services PhoneGap Build plugins -->
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
     <gap:plugin name="nl.x-services.plugins.calendar" />
-    <gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" />
     <gap:plugin name="nl.x-services.plugins.ioswebviewcolor" />
     <gap:plugin name="nl.x-services.plugins.videocaptureplus" />
     <gap:plugin name="nl.x-services.plugins.flashlight" />
@@ -50,7 +49,13 @@
     <preference name="SplashScreenDelay" value="2000" />
 
 
-    <icon src="icon.png" />
+    <gap:config-file platform="ios" parent="UISupportedInterfaceOrientations" overwrite="true">
+      <array>
+        <string>UIInterfaceOrientationLandscapeOmg</string>
+      </array>
+    </gap:config-file>
+
+  <icon src="icon.png" />
     <icon gap:density="ldpi" gap:platform="android" src="res/icon/android/icon-36-ldpi.png" />
     <icon gap:density="mdpi" gap:platform="android" src="res/icon/android/icon-48-mdpi.png" />
     <icon gap:density="hdpi" gap:platform="android" src="res/icon/android/icon-72-hdpi.png" />
