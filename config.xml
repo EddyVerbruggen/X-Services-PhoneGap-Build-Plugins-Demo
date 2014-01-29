@@ -49,9 +49,11 @@
     <preference name="SplashScreenDelay" value="2000" />
 
 
-    <gap:config-file platform="ios" parent="UISupportedInterfaceOrientations" overwrite="true">
+    <!-- demo for allowing only landscape orientation on iPad, with a preference of orientation=portrait -->
+    <gap:config-file platform="ios" parent="UISupportedInterfaceOrientations~iPad" overwrite="false">
       <array>
         <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
       </array>
     </gap:config-file>
 
