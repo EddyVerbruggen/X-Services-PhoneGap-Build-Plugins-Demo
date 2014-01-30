@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.helloworld" version="1.4" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>X-Plugins Demo</name>
     <description>
         The PhoneGap Hello World sample, extended with our plugins, so you have nice copy-pasteable code for your own app.
@@ -48,6 +48,8 @@
     <preference name="android-installLocation" value="auto" />
     <preference name="SplashScreenDelay" value="2000" />
 
+    <!-- demo for the new deployment target preference (iOS only) -->
+    <preference name="deployment-target" value="7.0" />
 
     <!-- demo for allowing landscape orientation on iPad -->
     <gap:config-file platform="ios" parent="UISupportedInterfaceOrientations~ipad" overwrite="false">
