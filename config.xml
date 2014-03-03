@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.helloworld" version="1.6" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>X-Plugins Demo</name>
     <description>
         The PhoneGap Hello World sample, extended with our plugins, so you have nice copy-pasteable code for your own app.
@@ -22,6 +22,7 @@
     <gap:plugin name="nl.x-services.plugins.videocaptureplus" />
     <gap:plugin name="nl.x-services.plugins.flashlight" />
     <gap:plugin name="nl.x-services.plugins.toast" />
+    <gap:plugin name="nl.x-services.plugins.insomnia" />
     <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" />
     <gap:plugin name="nl.x-services.plugins.launchmyapp">
       <param name="URL_SCHEME" value="xpluginsdemo" />
