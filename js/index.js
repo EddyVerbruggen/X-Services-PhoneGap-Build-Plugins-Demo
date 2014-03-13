@@ -55,75 +55,37 @@ var app = {
   initPluginDemo: function () {
     document.getElementById('pluginsDemoDiv').setAttribute('style', 'display:block');
   },
-  testAudioPlayer: function() {
+  testAudioPlayer: function () {
 
-//    var audioElement = document.createElement('audio');
-//    audioElement.setAttribute('src', 'http://www.x-services.nl/mindfullness-test.mp3');
-//    audioElement.play();
+    function onSuccess() {
+      alert("ok");
+    }
 
-    alert(window.plugins);
+    function onError() {
+      alert("nok");
+    }
 
-    var lla = window.plugins.LowLatencyAudio;
-    alert(lla);
-    var music_mp3 = "http://www.x-services.nl/mindfullness-test.mp3";
+    var my_media = new Media("http://www.x-services.nl/mindfullness-test.mp3", onSuccess, onError);
+    my_media.play({ playAudioWhenScreenIsLocked : true });
+//    my_media.play();
 
-    // preload audio resource
-//    lla.preloadAudio( music_mp3, music_mp3, 1, function(msg){
-//        }, function(msg){
-//        alert( 'error 1: ' + msg );
-//        });
 
-    //    lla.preloadFX( click_sound, click_sound, function(msg){
-//    }, function(msg){
-//      alert( 'error 2: ' + msg );
-//    });
-
-    // now start playing
-    lla.play( music_mp3 );
-    //    lla.loop( music_mp3 );
-
-    /*
-    // stop after 1 min
-    window.setTimeout( function(){
-      //lla.stop( click_sound );
-        lla.stop( music_mp3 );
-
-        lla.unload( music_mp3 );
-        lla.unload( click_sound );
-        }, 1000 * 60 );
-*/
-
-    // Audio player
-    //
-
-        function onSuccess() {
-            alert("ok");
-          }
-        function onError() {
-            alert("nok");
-          }
-        var my_media = new Media("http://www.x-services.nl/mindfullness-test.mp3", onSuccess, onError);
-//        my_media.play({ playAudioWhenScreenIsLocked : false });
-        my_media.play();
-
-    /*
     // Update media position every second
     var mediaTimer = setInterval(function () {
       // get media position
-        my_media.getCurrentPosition(
-            // success callback
-            function (position) {
-              if (position > -1) {
-                alert((position) + " sec");
-              }
-    },
-    // error callback
-    function (e) {
-        alert("Error getting pos=" + e);
-        }
-    );
-    }, 20000);
-    */
+      my_media.getCurrentPosition(
+          // success callback
+          function (position) {
+            if (position > -1) {
+              document.getElementById("test").value=position + " sec";
+            }
+          },
+          // error callback
+          function (e) {
+            document.getElementById("test").value="Error getting pos=" + e;
+          }
+      );
+    }, 1000);
 
   }
 };
