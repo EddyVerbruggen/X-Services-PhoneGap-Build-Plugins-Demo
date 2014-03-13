@@ -39,7 +39,6 @@ var app = {
   onDeviceReady: function () {
     app.receivedEvent('deviceready');
     app.initPluginDemo();
-    testAudioPlayer();
   },
   // Update DOM on a Received Event
   receivedEvent: function (id) {

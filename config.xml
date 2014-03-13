@@ -14,17 +14,17 @@
 
 
     <!-- X-Services PhoneGap Build plugins -->
-    <!--<gap:plugin name="nl.x-services.plugins.socialsharing" />-->
-    <!--<gap:plugin name="nl.x-services.plugins.calendar" />-->
-    <!--<gap:plugin name="nl.x-services.plugins.ioswebviewcolor" />-->
-    <!--<gap:plugin name="nl.x-services.plugins.videocaptureplus" />-->
-    <!--<gap:plugin name="nl.x-services.plugins.flashlight" />-->
-    <!--<gap:plugin name="nl.x-services.plugins.toast" />-->
+    <gap:plugin name="nl.x-services.plugins.socialsharing" />
+    <gap:plugin name="nl.x-services.plugins.calendar" />
+    <gap:plugin name="nl.x-services.plugins.ioswebviewcolor" />
+    <gap:plugin name="nl.x-services.plugins.videocaptureplus" />
+    <gap:plugin name="nl.x-services.plugins.flashlight" />
+    <gap:plugin name="nl.x-services.plugins.toast" />
     <gap:plugin name="nl.x-services.plugins.insomnia" />
-    <!--<gap:plugin name="nl.x-services.plugins.sslcertificatechecker" />-->
-    <!--<gap:plugin name="nl.x-services.plugins.launchmyapp">-->
-      <!--<param name="URL_SCHEME" value="xpluginsdemo" />-->
-    <!--</gap:plugin>-->
+    <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" />
+    <gap:plugin name="nl.x-services.plugins.launchmyapp">
+      <param name="URL_SCHEME" value="xpluginsdemo" />
+    </gap:plugin>
 
 
   <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" />
