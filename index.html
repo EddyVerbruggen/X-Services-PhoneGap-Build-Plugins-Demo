@@ -22,7 +22,10 @@
         <button onclick="changeWebViewColor()">Make webview background green (iOS)</button>
         <button onclick="testAudioPlayer(false)">Test Cordova audio player, 6 MB</button>
         <button onclick="testAudioPlayer(true)">Test Cordova audio player, 73 MB</button>
-        <button onclick="window.open('http://www.x-services.nl/mindfullness-test-large.mp3', '_system')">Test native audio player, 73 MB</button>
+        <button onclick="cordova.plugins.fileOpener2.open('http://www.x-services.nl/mindfullness-test-large.mp3',null)">Test native audio (fileopener2)</button>
+        <button onclick="window.open('http://www.x-services.nl/mindfullness-test-large.mp3', '_self')">Test native audio player (webview)</button>
+        <button onclick="window.open('http://www.x-services.nl/mindfullness-test-large.mp3', '_blank')">Test native audio player (inappbr)</button>
+        <button onclick="window.open('http://www.x-services.nl/mindfullness-test-large.mp3', '_system')">Test native audio player (extern)</button>
         <input id="test" name="test" type="text" width="10" placeholder="test"/>
       </p>
       <p>

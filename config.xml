@@ -32,6 +32,9 @@
     <gap:plugin name="org.apache.cordova.media" />
     <gap:plugin name="org.apache.cordova.inappbrowser" />
 
+    <gap:plugin name="io.github.pwlin.cordova.plugins.fileopener2" />
+
+
 
   <preference name="phonegap-version"/>
     <preference name="orientation" value="portrait" />
