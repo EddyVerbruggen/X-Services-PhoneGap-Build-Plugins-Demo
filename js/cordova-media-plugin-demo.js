@@ -1,6 +1,6 @@
 "use strict";
 
-function testAudioPlayer() {
+function testAudioPlayer(large) {
 
   function onSuccess() {
     alert("ok");
@@ -16,7 +16,7 @@ function testAudioPlayer() {
   }
 
   var my_media = new Media(
-      "http://www.x-services.nl/mindfullness-test.mp3",
+      large? "http://www.x-services.nl/mindfullness-test-large.mp3" : "http://www.x-services.nl/mindfullness-test.mp3",
       onSuccess,
       onError,
       onMediaStatus);

@@ -27,13 +27,13 @@
     </gap:plugin>
 
 
-  <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" />
-
-  <!-- PhoneGap plugins -->
+    <!-- PhoneGap plugins -->
     <gap:plugin name="org.apache.cordova.dialogs" />
     <gap:plugin name="org.apache.cordova.media" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
 
-    <preference name="phonegap-version"/>
+
+  <preference name="phonegap-version"/>
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />

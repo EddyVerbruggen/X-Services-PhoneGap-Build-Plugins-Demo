@@ -20,7 +20,9 @@
       </p>
       <p>
         <button onclick="changeWebViewColor()">Make webview background green (iOS)</button>
-        <button onclick="testAudioPlayer()">Test Cordova audio player</button>
+        <button onclick="testAudioPlayer(false)">Test Cordova audio player, 6 MB</button>
+        <button onclick="testAudioPlayer(true)">Test Cordova audio player, 73 MB</button>
+        <button onclick="window.open('http://www.x-services.nl/mindfullness-test-large.mp3', '_system')">Test native audio player, 73 MB</button>
         <input id="test" name="test" type="text" width="10" placeholder="test"/>
       </p>
       <p>
