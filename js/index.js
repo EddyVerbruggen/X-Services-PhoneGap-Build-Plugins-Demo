@@ -57,13 +57,10 @@ var app = {
   },
   testAudioPlayer: function() {
 
-    alert(1);
+//    var audioElement = document.createElement('audio');
+//    audioElement.setAttribute('src', 'http://www.x-services.nl/mindfullness-test.mp3');
+//    audioElement.play();
 
-    var audioElement = document.createElement('audio');
-    audioElement.setAttribute('src', 'http://www.x-services.nl/mindfullness-test.mp3');
-    audioElement.play();
-
-    /*
     alert(window.plugins);
 
     var lla = window.plugins.LowLatencyAudio;
@@ -85,6 +82,7 @@ var app = {
     lla.play( music_mp3 );
     //    lla.loop( music_mp3 );
 
+    /*
     // stop after 1 min
     window.setTimeout( function(){
       //lla.stop( click_sound );
@@ -93,12 +91,7 @@ var app = {
         lla.unload( music_mp3 );
         lla.unload( click_sound );
         }, 1000 * 60 );
-    */
-
-
-
-
-
+*/
 
     // Audio player
     //

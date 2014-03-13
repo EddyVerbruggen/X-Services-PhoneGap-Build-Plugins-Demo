@@ -27,7 +27,9 @@
     <!--</gap:plugin>-->
 
 
-    <!-- PhoneGap plugins -->
+  <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" />
+
+  <!-- PhoneGap plugins -->
     <gap:plugin name="org.apache.cordova.dialogs" />
     <gap:plugin name="org.apache.cordova.media" />
 
