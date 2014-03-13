@@ -31,6 +31,7 @@
 
     <!-- PhoneGap plugins -->
     <gap:plugin name="org.apache.cordova.dialogs" version="0.2.2" />
+    <gap:plugin name="org.apache.cordova.media" />
 
 
     <preference name="phonegap-version" value="3.1.0"/>
