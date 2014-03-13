@@ -68,10 +68,10 @@ var app = {
     var music_mp3 = "http://www.x-services.nl/mindfullness-test.mp3";
 
     // preload audio resource
-    lla.preloadAudio( music_mp3, music_mp3, 1, function(msg){
-        }, function(msg){
-        alert( 'error 1: ' + msg );
-        });
+//    lla.preloadAudio( music_mp3, music_mp3, 1, function(msg){
+//        }, function(msg){
+//        alert( 'error 1: ' + msg );
+//        });
 
     //    lla.preloadFX( click_sound, click_sound, function(msg){
 //    }, function(msg){
@@ -96,16 +96,15 @@ var app = {
     // Audio player
     //
 
-    //    function onSuccess() {
-      //      alert("ok");
-      //    }
-    //    function onError() {
-      //      alert("nok");
-      //    }
-    //    var my_media = new Media("http://www.x-services.nl/mindfullness-test.mp3", onSuccess, onError);
-    //    var my_media = new Media("http://www.x-services.nl/mindfullness-test.mp3", onSuccess, onError);
-    //    my_media.play({ playAudioWhenScreenIsLocked : false });
-    //    my_media.play();
+        function onSuccess() {
+            alert("ok");
+          }
+        function onError() {
+            alert("nok");
+          }
+        var my_media = new Media("http://www.x-services.nl/mindfullness-test.mp3", onSuccess, onError);
+//        my_media.play({ playAudioWhenScreenIsLocked : false });
+        my_media.play();
 
     /*
     // Update media position every second
