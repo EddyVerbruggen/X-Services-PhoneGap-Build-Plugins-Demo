@@ -30,10 +30,7 @@
     <!-- PhoneGap plugins -->
     <gap:plugin name="org.apache.cordova.dialogs" />
     <gap:plugin name="org.apache.cordova.media" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
-
-    <gap:plugin name="io.github.pwlin.cordova.plugins.fileopener2" />
-
+    <!--<gap:plugin name="org.apache.cordova.inappbrowser" />-->
 
 
   <preference name="phonegap-version"/>
