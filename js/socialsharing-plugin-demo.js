@@ -8,7 +8,7 @@ function socialsharingDemo() {
 //      window.plugins.socialsharing.share('Some text');
 
 //      window.plugins.socialsharing.share('test', null, 'data:image/png;base64,R0lGODlhDAAMALMBAP8AAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAUKAAEALAAAAAAMAAwAQAQZMMhJK7iY4p3nlZ8XgmNlnibXdVqolmhcRQA7', null, function(e){alert("success: " + e)}, function(e){alert("error: " + e)});
-      window.plugins.socialsharing.share(null, null, 'https://www.google.nl/images/srpr/logo11w.png', null, socialSharingCallback, socialSharingCallback);
+      window.plugins.socialsharing.share(null, null, 'https://www.google.nl/images/srpr/logo11w.png', null, function(){alert("ok")}, function(e){alert("error: " + e)});
       // alternative usage:
 
       // 1) a local image from anywhere else (if permitted):
@@ -24,9 +24,9 @@ function socialsharingDemo() {
 }
 
 function socialsharingSMSDemo() {
-  window.plugins.socialsharing.shareViaSMS("message", "0650298955", socialSharingCallback, socialSharingCallback);
+  window.plugins.socialsharing.shareViaSMS("message", "+31650298955", function(){alert("ok")}, function(e){alert("error: " + e)});
 }
 
-function socialSharingCallback(msg) {
-  setTimeout(alert(msg), 1);
+function socialsharingFacebookDemo() {
+  window.plugins.socialsharing.shareViaFacebook("message", null, null, function(){alert("ok")}, function(e){alert("error: " + e)});
 }
