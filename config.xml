@@ -18,17 +18,6 @@
     <gap:platform name="android"/>
     <gap:platform name="wp8"/>
 
-    <!-- testing using this app as a target to share to -->
-    <gap:config-file platform="android" parent="/manifest">
-      <intent-filter>
-        <action android:name="android.intent.action.SEND"/>
-        <action android:name="android.intent.action.SEND_MULTIPLE"/>
-        <category android:name="android.intent.category.DEFAULT"/>
-        <data android:mimeType="text/plain"/>
-        <data android:mimeType="image/*"/>
-      </intent-filter>
-    </gap:config-file>
-
     <!-- X-Services PhoneGap Build plugins -->
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
     <gap:plugin name="nl.x-services.plugins.calendar" />
