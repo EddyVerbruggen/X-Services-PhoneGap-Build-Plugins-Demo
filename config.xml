@@ -19,7 +19,7 @@
     <gap:platform name="wp8"/>
 
     <!-- testing using this app as a target to share to -->
-    <gap:config-file platform="android" parent="/manifest/application/activity">
+    <gap:config-file platform="android" parent="/manifest">
       <intent-filter>
         <action android:name="android.intent.action.SEND"/>
         <action android:name="android.intent.action.SEND_MULTIPLE"/>
