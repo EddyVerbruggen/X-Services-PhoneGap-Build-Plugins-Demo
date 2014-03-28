@@ -11,9 +11,11 @@ var notes = "Some notes about this event.";
 var calSuccess = function(message) { alert("Success: " + JSON.stringify(message)); };
 var calError = function(message) { alert("Error: " + message); };
 
+var calOptions = window.plugins.calendar.getCalendarOptions(); // grab the defaults
+calOptions.firstReminderMinutes = 120; // default is 60, pass in null for no reminder (alarm)
 
 function calendarDemoAdd() {
-  window.plugins.calendar.createEvent(title,where,notes,startDate,endDate,calSuccess,calError);
+  window.plugins.calendar.createEventWithOptions(title,where,notes,startDate,endDate,calOptions,calSuccess,calError);
 }
 
 function calendarDemoRemove() {

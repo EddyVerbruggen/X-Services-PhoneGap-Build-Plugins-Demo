@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.6" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget
+    id="com.phonegap.helloworld"
+    version="1.6"
+    xmlns="http://www.w3.org/ns/widgets"
+    xmlns:gap="http://phonegap.com/ns/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
     <name>X-Plugins Demo</name>
     <description>
         The PhoneGap Hello World sample, extended with our plugins, so you have nice copy-pasteable code for your own app.
@@ -12,6 +18,16 @@
     <gap:platform name="android"/>
     <gap:platform name="wp8"/>
 
+    <!-- testing using this app as a target to share to -->
+    <gap:config-file platform="android" parent="/manifest/application/activity">
+      <intent-filter>
+        <action android:name="android.intent.action.SEND"/>
+        <action android:name="android.intent.action.SEND_MULTIPLE"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <data android:mimeType="text/plain"/>
+        <data android:mimeType="image/*"/>
+      </intent-filter>
+    </gap:config-file>
 
     <!-- X-Services PhoneGap Build plugins -->
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
