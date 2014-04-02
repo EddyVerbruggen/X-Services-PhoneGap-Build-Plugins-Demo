@@ -15,7 +15,8 @@ var calOptions = window.plugins.calendar.getCalendarOptions(); // grab the defau
 calOptions.firstReminderMinutes = 120; // default is 60, pass in null for no reminder (alarm)
 
 function calendarDemoAdd() {
-  window.plugins.calendar.createEventWithOptions(title,where,notes,startDate,endDate,calOptions,calSuccess,calError);
+//  window.plugins.calendar.createEventWithOptions(title,where,notes,startDate,endDate,calOptions,calSuccess,calError);
+  window.plugins.calendar.createEventInteractively(title,where,notes,startDate,endDate,calSuccess,calError);
 }
 
 function calendarDemoRemove() {
