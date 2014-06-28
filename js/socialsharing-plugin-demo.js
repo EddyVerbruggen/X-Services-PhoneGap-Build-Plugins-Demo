@@ -8,7 +8,7 @@ function socialsharingDemo() {
 //      window.plugins.socialsharing.share('Some text');
 
 //      window.plugins.socialsharing.share('test', null, 'data:image/png;base64,R0lGODlhDAAMALMBAP8AAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAUKAAEALAAAAAAMAAwAQAQZMMhJK7iY4p3nlZ8XgmNlnibXdVqolmhcRQA7', null, function(e){alert("success: " + e)}, function(e){alert("error: " + e)});
-      window.plugins.socialsharing.share('My text', 'My subject', 'SHARE_IMAGE_URL', null, function(){alert("ok")}, function(e){alert("error: " + e)});
+      window.plugins.socialsharing.share('My text', 'My subject', 'https://www.google.nl/images/srpr/logo11w.png', null, function(){alert("ok")}, function(e){alert("error: " + e)});
       // alternative usage:
 
       // 1) a local image from anywhere else (if permitted):
