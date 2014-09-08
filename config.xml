@@ -28,6 +28,7 @@
     <gap:plugin name="nl.x-services.plugins.insomnia" />
     <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" />
     <gap:plugin name="nl.x-services.plugins.headsetdetection" />
+    <gap:plugin name="nl.x-services.plugins.backgroundaudio" />
     <gap:plugin name="nl.x-services.plugins.launchmyapp">
       <param name="URL_SCHEME" value="xpluginsdemo" />
     </gap:plugin>
@@ -39,7 +40,7 @@
     <!--<gap:plugin name="org.apache.cordova.inappbrowser" />-->
 
 
-    <preference name="phonegap-version" value="3.4.0"/>
+    <preference name="phonegap-version" value="3.5.0"/>
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
