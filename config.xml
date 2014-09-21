@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget
     id="com.phonegap.helloworld"
-    version="1.6"
+    version="1.6.1"
     xmlns="http://www.w3.org/ns/widgets"
     xmlns:gap="http://phonegap.com/ns/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -41,7 +41,7 @@
 
 
     <preference name="phonegap-version" value="3.5.0"/>
-    <preference name="orientation" value="portrait" />
+    <!--<preference name="orientation" value="portrait" />-->
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="true" />
