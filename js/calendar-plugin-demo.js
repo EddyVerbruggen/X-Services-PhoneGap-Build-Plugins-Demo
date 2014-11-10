@@ -1,5 +1,3 @@
-"use strict";
-
 // create an event starting now, lasting an hour
 var startDate = new Date();
 var endDate = new Date();

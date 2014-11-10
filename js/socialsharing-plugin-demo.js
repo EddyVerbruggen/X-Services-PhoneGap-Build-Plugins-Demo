@@ -1,5 +1,3 @@
-"use strict";
-
 function socialsharingDemo() {
   window.plugins.socialsharing.available(function(isAvailable) {
     if (isAvailable) {

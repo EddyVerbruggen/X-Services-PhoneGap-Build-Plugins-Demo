@@ -1,5 +1,3 @@
-"use strict";
-
 var insomniaEnabled = false;
 
 function insomniaDemo() {

@@ -1,5 +1,3 @@
-"use strict";
-
 function sslcertificatecheckerDemo(useCorrectFingerprint) {
   var server = "https://build.phonegap.com";
   var fingerprint;

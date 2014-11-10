@@ -1,5 +1,3 @@
-"use strict";
-
 function flashlightDemo() {
   window.plugins.flashlight.available(function(isAvailable) {
     if (isAvailable) {

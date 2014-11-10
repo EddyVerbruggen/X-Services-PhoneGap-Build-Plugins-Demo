@@ -32,6 +32,8 @@
     <gap:plugin name="nl.x-services.plugins.launchmyapp">
       <param name="URL_SCHEME" value="xpluginsdemo" />
     </gap:plugin>
+    <gap:plugin name="nl.x-services.plugins.wkwebview" />
+    <gap:plugin name="nl.x-services.plugins.actionsheet" />
 
 
     <!-- PhoneGap plugins -->
@@ -40,7 +42,7 @@
     <!--<gap:plugin name="org.apache.cordova.inappbrowser" />-->
 
 
-    <preference name="phonegap-version" value="3.5.0"/>
+    <preference name="phonegap-version" value="3.6.3"/>
     <!--<preference name="orientation" value="portrait" />-->
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />

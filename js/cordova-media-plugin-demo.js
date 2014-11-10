@@ -1,5 +1,3 @@
-"use strict";
-
 function testAudioPlayer(large) {
 
   function onSuccess() {
