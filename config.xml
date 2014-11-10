@@ -32,8 +32,9 @@
     <gap:plugin name="nl.x-services.plugins.launchmyapp">
       <param name="URL_SCHEME" value="xpluginsdemo" />
     </gap:plugin>
-    <gap:plugin name="nl.x-services.plugins.wkwebview" />
+    <!--<gap:plugin name="nl.x-services.plugins.wkwebview" />-->
     <gap:plugin name="nl.x-services.plugins.actionsheet" />
+    <gap:plugin name="com.telerik.plugins.nativepagetransitions" />
 
 
     <!-- PhoneGap plugins -->

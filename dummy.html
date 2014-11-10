@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css"/>
+  <title>Plugins Demo</title>
+</head>
+<body>
+<div class="app">
+  <h1>Second page</h1>
+  <div id="deviceready" class="blink">
+    <p class="event listening">Connecting to Device</p>
+    <p class="event received">Device is Ready</p>
+    <div id="pluginsDemoDiv">
+      <a href="index.html">back</a>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+  app.initialize();
+
+  window.onerror = function(a,b,c) {
+    alert(a + "; " + b + "; " + c);
+  }
+</script>
+</body>
+</html>
