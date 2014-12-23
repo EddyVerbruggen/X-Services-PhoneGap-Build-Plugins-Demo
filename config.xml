@@ -35,7 +35,7 @@
     <!--<gap:plugin name="nl.x-services.plugins.wkwebview" />-->
     <gap:plugin name="nl.x-services.plugins.actionsheet" />
     <gap:plugin name="com.telerik.plugins.nativepagetransitions" />
-    <gap:plugin name="com.telerik.plugins.wkwebview" version="0.3.3" source="plugins.cordova.io" />
+    <gap:plugin name="com.telerik.plugins.wkwebview" version="0.3.4" source="plugins.cordova.io" />
 
 
     <!-- PhoneGap plugins -->
