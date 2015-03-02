@@ -35,8 +35,10 @@
     <!--<gap:plugin name="nl.x-services.plugins.wkwebview" />-->
     <gap:plugin name="nl.x-services.plugins.actionsheet" />
     <gap:plugin name="nl.x-services.plugins.googleplus" version="1.0.8" source="plugins.cordova.io"/>
-    <gap:plugin name="com.telerik.plugins.nativepagetransitions" />
-    <!--<gap:plugin name="com.telerik.plugins.wkwebview" version="0.3.4" source="plugins.cordova.io" />-->
+    <gap:plugin name="com.telerik.plugins.nativepagetransitions" source="plugins.cordova.io" />
+    <gap:plugin name="com.telerik.plugins.wkwebview" version="0.3.5" source="plugins.cordova.io" />
+
+    <gap:plugin name="org.apache.cordova.statusbar" version="0.1.10" source="plugins.cordova.io" />
 
 
     <!-- PhoneGap plugins -->
@@ -45,7 +47,7 @@
     <!--<gap:plugin name="org.apache.cordova.inappbrowser" />-->
 
 
-    <preference name="phonegap-version" value="3.6.3"/>
+    <preference name="phonegap-version" value="3.7.0" />
     <!--<preference name="orientation" value="portrait" />-->
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />

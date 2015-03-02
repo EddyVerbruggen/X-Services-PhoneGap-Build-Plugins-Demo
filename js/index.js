@@ -39,6 +39,7 @@ var app = {
   onDeviceReady: function () {
     app.receivedEvent('deviceready');
     app.initPluginDemo();
+    app.statusbar();
   },
   // Update DOM on a Received Event
   receivedEvent: function (id) {
@@ -53,6 +54,12 @@ var app = {
   },
   initPluginDemo: function () {
     document.getElementById('pluginsDemoDiv').setAttribute('style', 'display:block');
+  },
+  statusbar: function () {
+    alert('statusbar init..');
+    StatusBar.overlaysWebView(false);
+    StatusBar.backgroundColorByName('black');
+    alert('statusbar done');
   }
 };
 
