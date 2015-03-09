@@ -2,7 +2,7 @@ function sslcertificatecheckerDemo(useCorrectFingerprint) {
   var server = "https://build.phonegap.com";
   var fingerprint;
   if (useCorrectFingerprint) {
-    fingerprint = "8F A5 FC 33 20 2D 45 B4 EC 95 87 F0 50 F0 18 14 DF 98 50 64"; // valid until sep 2014
+    fingerprint = "2b 24 1b e0 d0 8c a6 41 68 c2 bb e3 60 0a df 55 1a fc a8 45";
   } else {
     fingerprint = "11 22 33 44 55 2D 45 B4 EC 95 87 F0 50 F0 18 14 DF 98 50 64"; // nonsense
   }
