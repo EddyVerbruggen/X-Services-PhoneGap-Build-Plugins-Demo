@@ -1,6 +1,8 @@
 function actionsheetDemo() {
+    alert('actionsheet theme: ' + window.plugins.actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT);
   var options = {
     'title': 'What do you want with this image?',
+    'androidTheme': window.plugins.actionsheet.ANDROID_THEMES.THEME_HOLO_LIGHT,
     'buttonLabels': ['Share via Facebook', 'Share via Twitter'],
     'androidEnableCancelButton' : true, // default false
     'winphoneEnableCancelButton' : true, // default false
