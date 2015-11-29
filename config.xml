@@ -18,36 +18,42 @@
     <gap:platform name="android"/>
     <gap:platform name="wp8"/>
 
+    <gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
+    <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
+    <gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
+    <gap:plugin name="org.apache.cordova.globalization"/>
+    <gap:plugin name="org.apache.cordova.network-information"/>
+
     <!-- X-Services PhoneGap Build plugins -->
-    <gap:plugin name="nl.x-services.plugins.socialsharing" />
-    <gap:plugin name="nl.x-services.plugins.calendar" />
-    <gap:plugin name="nl.x-services.plugins.ioswebviewcolor" />
-    <gap:plugin name="nl.x-services.plugins.videocaptureplus" />
-    <gap:plugin name="nl.x-services.plugins.flashlight" />
-    <gap:plugin name="nl.x-services.plugins.toast" />
-    <gap:plugin name="nl.x-services.plugins.insomnia" />
-    <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" />
-    <gap:plugin name="nl.x-services.plugins.headsetdetection" />
-    <gap:plugin name="nl.x-services.plugins.backgroundaudio" />
-    <gap:plugin name="nl.x-services.plugins.launchmyapp">
+    <gap:plugin name="cordova-plugin-googleplus" source="npm" />
+    <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+    <gap:plugin name="cordova-plugin-calendar" source="npm"/>
+    <!--<gap:plugin name="nl.x-services.plugins.ioswebviewcolor" />-->
+    <!--<gap:plugin name="nl.x-services.plugins.videocaptureplus" />-->
+    <gap:plugin name="cordova-plugin-flashlight" source="npm" />
+    <gap:plugin name="cordova-plugin-x-toast" source="npm" />
+    <gap:plugin name="cordova-plugin-insomnia" source="npm" />
+    <gap:plugin name="cordova-plugin-sslcertificatechecker" source="npm" />
+    <!--<gap:plugin name="nl.x-services.plugins.headsetdetection" />-->
+    <!--<gap:plugin name="nl.x-services.plugins.backgroundaudio" />-->
+    <gap:plugin name="cordova-plugin-customurlscheme">
       <param name="URL_SCHEME" value="xpluginsdemo" />
     </gap:plugin>
     <!--<gap:plugin name="nl.x-services.plugins.wkwebview" />-->
-    <gap:plugin name="nl.x-services.plugins.actionsheet" version="1.1.4"  source="plugins.cordova.io"/>
-    <gap:plugin name="nl.x-services.plugins.googleplus" version="1.0.8" source="plugins.cordova.io"/>
-    <gap:plugin name="com.telerik.plugins.nativepagetransitions" source="plugins.cordova.io" />
-    <gap:plugin name="com.telerik.plugins.wkwebview" version="0.3.5" source="plugins.cordova.io" />
+    <gap:plugin name="cordova-plugin-actionsheet" source="npm"/>
+    <gap:plugin name="com.telerik.plugins.nativepagetransitions" source="npm" />
+    <gap:plugin name="cordova-plugin-wkwebview" source="npm" />
 
-    <gap:plugin name="org.apache.cordova.statusbar" version="0.1.10" source="plugins.cordova.io" />
+    <gap:plugin name="cordova-plugin-statusbar" source="npm" />
 
 
     <!-- PhoneGap plugins -->
-    <gap:plugin name="org.apache.cordova.dialogs" />
-    <gap:plugin name="org.apache.cordova.media" />
-    <!--<gap:plugin name="org.apache.cordova.inappbrowser" />-->
+    <gap:plugin name="cordova-plugin-dialogs" source="npm" />
+    <gap:plugin name="cordova-plugin-media" source="npm" />
 
 
-    <preference name="phonegap-version" value="3.7.0" />
+    <preference name="phonegap-version" value="cli-5.2.0" />
     <!--<preference name="orientation" value="portrait" />-->
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
