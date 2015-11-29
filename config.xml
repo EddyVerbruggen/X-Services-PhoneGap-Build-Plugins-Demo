@@ -3,7 +3,6 @@
     id="com.phonegap.helloworld"
     version="1.6.1"
     xmlns="http://www.w3.org/ns/widgets"
-    xmlns:gap="http://phonegap.com/ns/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <name>X-Plugins Demo</name>
@@ -18,39 +17,32 @@
     <gap:platform name="android"/>
     <gap:platform name="wp8"/>
 
+    <!-- PhoneGap plugins -->
     <gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
     <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
-    <gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
-    <gap:plugin name="org.apache.cordova.globalization"/>
-    <gap:plugin name="org.apache.cordova.network-information"/>
-
-    <!-- X-Services PhoneGap Build plugins -->
-    <gap:plugin name="cordova-plugin-googleplus" source="npm" />
-    <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
-    <gap:plugin name="cordova-plugin-calendar" source="npm"/>
-    <!--<gap:plugin name="nl.x-services.plugins.ioswebviewcolor" />-->
-    <!--<gap:plugin name="nl.x-services.plugins.videocaptureplus" />-->
-    <gap:plugin name="cordova-plugin-flashlight" source="npm" />
-    <gap:plugin name="cordova-plugin-x-toast" source="npm" />
-    <gap:plugin name="cordova-plugin-insomnia" source="npm" />
-    <gap:plugin name="cordova-plugin-sslcertificatechecker" source="npm" />
-    <!--<gap:plugin name="nl.x-services.plugins.headsetdetection" />-->
-    <!--<gap:plugin name="nl.x-services.plugins.backgroundaudio" />-->
-    <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
-      <param name="URL_SCHEME" value="xpluginsdemo" />
-    </gap:plugin>
-    <!--<gap:plugin name="nl.x-services.plugins.wkwebview" />-->
-    <gap:plugin name="cordova-plugin-actionsheet" source="npm"/>
-    <gap:plugin name="com.telerik.plugins.nativepagetransitions" source="npm" />
-    <gap:plugin name="cordova-plugin-wkwebview" source="npm" />
-
+    <!--<gap:plugin name="org.apache.cordova.globalization"/>-->
+    <!--<gap:plugin name="org.apache.cordova.network-information"/>-->
     <gap:plugin name="cordova-plugin-statusbar" source="npm" />
-
-
-    <!-- PhoneGap plugins -->
     <gap:plugin name="cordova-plugin-dialogs" source="npm" />
     <gap:plugin name="cordova-plugin-media" source="npm" />
+
+
+  <!-- X-Services PhoneGap Build plugins -->
+    <!-- npm is default now, see http://phonegap.com/blog/2015/11/19/config_xml_changes_part_two/-->
+    <plugin name="cordova-plugin-googleplus"/>
+    <plugin name="cordova-plugin-x-socialsharing"/>
+    <plugin name="cordova-plugin-calendar"/>
+    <plugin name="cordova-plugin-flashlight"/>
+    <plugin name="cordova-plugin-x-toast"/>
+    <plugin name="cordova-plugin-insomnia"/>
+    <plugin name="cordova-plugin-sslcertificatechecker"/>
+    <plugin name="cordova-plugin-customurlscheme">
+      <param name="URL_SCHEME" value="xpluginsdemo" />
+    <plugin>
+    <plugin name="cordova-plugin-actionsheet"/>
+    <plugin name="com.telerik.plugins.nativepagetransitions"/>
+    <plugin name="cordova-plugin-wkwebview"/>
 
 
     <preference name="phonegap-version" value="cli-5.2.0" />
