@@ -37,9 +37,9 @@
     <plugin name="cordova-plugin-actionsheet"/>
     <plugin name="com.telerik.plugins.nativepagetransitions"/>
     <plugin name="cordova-plugin-wkwebview"/>
-    <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
-      <param name="URL_SCHEME" value="xpluginsdemo"/>
-    <gap:plugin>
+    <plugin name="cordova-plugin-customurlscheme">
+      <param name="URL_SCHEME" value="xpluginsdemo" />
+    </plugin>
 
     <platform name="ios">
       <preference name="orientation" value="portrait" />
