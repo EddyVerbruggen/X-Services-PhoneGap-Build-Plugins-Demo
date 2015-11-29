@@ -19,17 +19,14 @@
     <platform name="wp8"/>
 
     <!-- PhoneGap plugins -->
-    <gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
-    <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
-    <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
-    <!--<gap:plugin name="org.apache.cordova.globalization"/>-->
-    <!--<gap:plugin name="org.apache.cordova.network-information"/>-->
-    <gap:plugin name="cordova-plugin-statusbar" source="npm" />
-    <gap:plugin name="cordova-plugin-dialogs" source="npm" />
-    <gap:plugin name="cordova-plugin-media" source="npm" />
+    <plugin name="cordova-plugin-splashscreen"/>
+    <plugin name="cordova-plugin-inappbrowser"/>
+    <plugin name="cordova-plugin-whitelist"/>
+    <plugin name="cordova-plugin-statusbar"/>
+    <plugin name="cordova-plugin-dialogs"/>
+    <plugin name="cordova-plugin-media"/>
 
-  <!-- X-Services PhoneGap Build plugins -->
-    <!-- npm is default now, see http://phonegap.com/blog/2015/11/19/config_xml_changes_part_two/-->
+    <!-- X-Services PhoneGap Build plugins -->
     <plugin name="cordova-plugin-googleplus"/>
     <plugin name="cordova-plugin-x-socialsharing"/>
     <plugin name="cordova-plugin-calendar"/>
@@ -37,13 +34,12 @@
     <plugin name="cordova-plugin-x-toast"/>
     <plugin name="cordova-plugin-insomnia"/>
     <plugin name="cordova-plugin-sslcertificatechecker"/>
-    <!--<plugin name="cordova-plugin-customurlscheme">-->
-      <!--<param name="URL_SCHEME" value="xpluginsdemo" />-->
-    <!--<plugin>-->
     <plugin name="cordova-plugin-actionsheet"/>
     <plugin name="com.telerik.plugins.nativepagetransitions"/>
     <plugin name="cordova-plugin-wkwebview"/>
-
+    <plugin name="cordova-plugin-customurlscheme">
+      <param name="URL_SCHEME" value="xpluginsdemo"/>
+    <plugin>
 
     <platform name="ios">
       <preference name="orientation" value="portrait" />
