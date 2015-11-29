@@ -13,9 +13,9 @@
         X-Services, Netherlands
     </author>
 
-    <gap:platform name="ios"/>
-    <gap:platform name="android"/>
-    <gap:platform name="wp8"/>
+    <platform name="ios"/>
+    <platform name="android"/>
+    <platform name="wp8"/>
 
     <!-- PhoneGap plugins -->
     <gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
@@ -44,9 +44,13 @@
     <plugin name="com.telerik.plugins.nativepagetransitions"/>
     <plugin name="cordova-plugin-wkwebview"/>
 
+    <preference name="android-build-tool" value="gradle" />
+
+    <platform name="ios">
+      <preference name="orientation" value="portrait" />
+    </platform>
 
     <preference name="phonegap-version" value="cli-5.2.0" />
-    <!--<preference name="orientation" value="portrait" />-->
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="true" />
@@ -58,8 +62,8 @@
     <preference name="show-splash-screen-spinner" value="true" />
     <preference name="auto-hide-splash-screen" value="true" />
     <preference name="disable-cursor" value="false" />
-    <preference name="android-minSdkVersion" value="8" />
-    <preference name="android-targetSdkVersion" value="19" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-targetSdkVersion" value="23" />
     <preference name="android-installLocation" value="auto" />
     <preference name="SplashScreenDelay" value="2000" />
 
