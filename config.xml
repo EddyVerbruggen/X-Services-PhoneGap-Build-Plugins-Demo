@@ -3,6 +3,7 @@
     id="com.phonegap.helloworld"
     version="1.6.1"
     xmlns="http://www.w3.org/ns/widgets"
+    xmlns:gap="http://phonegap.com/ns/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <name>X-Plugins Demo</name>
@@ -27,7 +28,6 @@
     <gap:plugin name="cordova-plugin-dialogs" source="npm" />
     <gap:plugin name="cordova-plugin-media" source="npm" />
 
-
   <!-- X-Services PhoneGap Build plugins -->
     <!-- npm is default now, see http://phonegap.com/blog/2015/11/19/config_xml_changes_part_two/-->
     <plugin name="cordova-plugin-googleplus"/>
@@ -37,9 +37,9 @@
     <plugin name="cordova-plugin-x-toast"/>
     <plugin name="cordova-plugin-insomnia"/>
     <plugin name="cordova-plugin-sslcertificatechecker"/>
-    <plugin name="cordova-plugin-customurlscheme">
-      <param name="URL_SCHEME" value="xpluginsdemo" />
-    <plugin>
+    <!--<plugin name="cordova-plugin-customurlscheme">-->
+      <!--<param name="URL_SCHEME" value="xpluginsdemo" />-->
+    <!--<plugin>-->
     <plugin name="cordova-plugin-actionsheet"/>
     <plugin name="com.telerik.plugins.nativepagetransitions"/>
     <plugin name="cordova-plugin-wkwebview"/>
