@@ -37,7 +37,7 @@
     <gap:plugin name="cordova-plugin-sslcertificatechecker" source="npm" />
     <!--<gap:plugin name="nl.x-services.plugins.headsetdetection" />-->
     <!--<gap:plugin name="nl.x-services.plugins.backgroundaudio" />-->
-    <gap:plugin name="cordova-plugin-customurlscheme">
+    <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
       <param name="URL_SCHEME" value="xpluginsdemo" />
     </gap:plugin>
     <!--<gap:plugin name="nl.x-services.plugins.wkwebview" />-->
