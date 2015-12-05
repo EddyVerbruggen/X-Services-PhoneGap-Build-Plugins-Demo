@@ -27,9 +27,9 @@
     <plugin name="cordova-plugin-media"/>
 
     <!-- X-Services PhoneGap Build plugins -->
-    <gap:plugin name="cordova-plugin-googleplus">
+    <!--gap:plugin name="cordova-plugin-googleplus">
       <param name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.6535513912-uvpf249ak7avodois85tkjmh2lc2j952" />
-    </gap:plugin>
+    </gap:plugin-->
     <plugin name="cordova-plugin-x-socialsharing"/>
     <plugin name="cordova-plugin-calendar"/>
     <plugin name="cordova-plugin-flashlight"/>
