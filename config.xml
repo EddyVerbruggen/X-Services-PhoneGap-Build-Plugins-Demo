@@ -42,6 +42,9 @@
     <plugin name="cordova-plugin-customurlscheme">
       <param name="URL_SCHEME" value="xpluginsdemo" />
     </plugin>
+    <plugin name="cordova-plugin-mapbox">
+      <param name="ACCESS_TOKEN" value="sk.eyJ1IjoiZWRkeXZlcmJydWdnZW4iLCJhIjoia1JpRW82NCJ9.OgnvpsKzB3GJhzyofQNUBw" />
+    </plugin>
 
     <platform name="ios">
       <preference name="orientation" value="portrait" />
