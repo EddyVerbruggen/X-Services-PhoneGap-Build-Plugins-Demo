@@ -30,7 +30,7 @@
     <!--gap:plugin name="cordova-plugin-googleplus">
       <param name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.6535513912-uvpf249ak7avodois85tkjmh2lc2j952" />
     </gap:plugin-->
-    <plugin name="cordova-plugin-x-socialsharing" spec="5.0.9"/>
+    <plugin name="cordova-plugin-x-socialsharing"/>
     <plugin name="cordova-plugin-calendar"/>
     <plugin name="cordova-plugin-flashlight"/>
     <plugin name="cordova-plugin-x-toast"/>
@@ -43,7 +43,7 @@
       <param name="URL_SCHEME" value="xpluginsdemo" />
     </plugin>
     <plugin name="cordova-plugin-mapbox">
-      <param name="ACCESS_TOKEN" value="sk.eyJ1IjoiZWRkeXZlcmJydWdnZW4iLCJhIjoia1JpRW82NCJ9.OgnvpsKzB3GJhzyofQNUBw" />
+      <param name="ACCESS_TOKEN" value="---YOUR---KEY---" />
     </plugin>
 
     <platform name="ios">
